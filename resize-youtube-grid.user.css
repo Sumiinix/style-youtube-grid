@@ -24,7 +24,7 @@
 @var number metaText                "└─ Meta Text"          [1.3, 0, 100, 0.01, 'rem']
 
 
-@var checkbox isTitleLineClampEnabled   "･Title Line Clamp"             0
+@var checkbox isTitleLineClampEnabled   "･Title Line Clamp"             1
 @var range titleLineClamp               "└─ "                         [3, 1, 5, 1]
 
 
@@ -49,7 +49,7 @@
 @var checkbox isHorizontalContentEnabled   "･Horizontal Contents Menu Position (px)"    1
 @var number menuVerticalPosition           "├─ Vertical"                [-1, -1000, 1000, 0.1, 'px']
 @var number menuHorizontalPosition         "└─ Horizontal"              [-5, -1000, 1000, 0.1, 'px']
-@var checkbox isLimitShortsHeightEnabled   "･Limiting Shorts Height"      0
+@var checkbox isLimitShortsHeightEnabled   "･Limiting Shorts Height"      1
 @var checkbox isChannelPageEnabled         "･Channel Page"                1
 @var number channelGridWidth               "└─ Grid Width"              [90, 0, 100, 0.1, '%']
 @var checkbox isRecommendVideoEnabled      "･Recommended Videos on Channel Page"     1
@@ -73,7 +73,7 @@
 
 
 @var checkbox isColorOptionEnabled      "⬇️ Other Color Options ⬇️"     0
-@var checkbox isHeaderColorEnabled      "･Header"                      1
+@var checkbox isHeaderColorEnabled      "･Header"                      0
 @var color headerColor                  "├─ Color"                     #0f0f0fc9
 @var number headerBlur                  "└─ Blur (px)"                 [8, 0, 100, 0.1, 'px']
 @var checkbox isSearchBarColorEnabled   "･Search Bar"                   0
@@ -85,7 +85,7 @@
 @var checkbox isBarColorEnabled         "･Bar"                          0
 @var color loadProgressBarColor         "├─ Load Progress Bar"          #e2e2e2
 @var color seekBarColor                 "└─ Seek Bar"                   #e2e2e2
-@var checkbox isPlayerPageEnabled       "･Player Page"                    0
+@var checkbox isPlayerPageEnabled       "･Player Page"                    1
 @var color descriptionColor             "├─ Description"                #ffffff0a
 @var color liveChatColor                "└─ Live Chat"                  #0000004d
 @var checkbox isBeforeSubButtonColorEnabled   "･Button Before Subscription"     0
@@ -98,14 +98,14 @@
 @var checkbox hideVoiceSearch        "･Voice Search"                   1
 @var checkbox hideCreateButton       "･Create button"                  0
 @var checkbox description            "･Description"                    0
-@var checkbox shortRemix             "├─ Shorts remixing?"             0
+@var checkbox shortRemix             "├─ Shorts Remix"                 1
 @var checkbox hideHorizontalDesc     "├─ Horizontal Card List (Music?)"0
-@var checkbox hideYTMusicButton      "├─ YouTube Music Button"         0
-@var checkbox transcription          "├─ Transcription"                0
-@var checkbox channelDesctiption     "├─ Channel"                      0
-@var checkbox socialLinks            "├─ Social Links"                 0
-@var checkbox videosDescription      "├─ Videos"                       0
-@var checkbox hideShopDesc           "└─ Shop?"                        0
+@var checkbox hideYTMusicButton      "├─ YouTube Music Button"         1
+@var checkbox transcription          "├─ Transcription"                1
+@var checkbox channelDesctiption     "├─ Channel"                      1
+@var checkbox socialLinks            "├─ Social Links"                 1
+@var checkbox videosDescription      "├─ Videos"                       1
+@var checkbox hideShopDesc           "└─ Shop?"                        1
 @var checkbox hideShorts             "･Shorts"                  0
 @var checkbox homeShelf              "├─ In grid"               1
 @var checkbox hideShortsSidebar      "└─ Sidebar"               1
